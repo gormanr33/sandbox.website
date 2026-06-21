@@ -4,7 +4,11 @@ format: html
 
 ## About Me
 
-![](images/angel.png)
+```{r, echo=FALSE, results='asis'}
+cat('<div>
+<img src="images/angel.png" width="40">
+</div>')
+```
 
 <!-- Raw HTML Block for the Userbox -->
 
