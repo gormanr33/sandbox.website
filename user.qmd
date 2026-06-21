@@ -5,6 +5,7 @@ format: html
 ## About Me
 
 <!-- Raw HTML Block for the Userbox -->
+
 ```{r, echo=FALSE, results='asis'}
 cat('
 <style>
@@ -52,3 +53,64 @@ cat('
 </div>
 ')
 ```
+
+<!-- Raw HTML Block for the Userbox -->
+
+```{r, echo=FALSE, results='asis'}
+```
+
+```{=html}
+<style>
+.userbox {
+  display: flex;
+  width: 238px;
+  height: 45px;
+  border: 1px solid #6e5084;
+  background-color: #f7f1fc;
+  font-family: sans-serif;
+  font-size: 8pt;
+  color: #226663;
+  margin: 5px;
+}
+
+.ubx-id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  background-color: #ece1f5;
+  border-right: 1px solid #6e5084;
+}
+
+.ubx-id img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
+
+.ubx-info {
+  display: flex;
+  align-items: center;
+  padding: 0 6px;
+  flex-grow: 1;
+  color: #226663;
+}
+</style>
+```
+
+::::: userbox
+::: ubx-id
+```         
+<img src="images/angel.png" alt="Angel icon">
+```
+:::
+
+::: ubx-info
+```         
+This user is being guided to heaven.
+```
+:::
+:::::
+
+\`\`\`
