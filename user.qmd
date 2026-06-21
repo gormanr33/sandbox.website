@@ -43,7 +43,7 @@ cat('
 
 <div class="userbox">
   <div class="ubx-id">
-    <img src="images/angel.png" alt="Angel icon">
+    <img src="/images/angel.png" alt="Angel icon">
   </div>
   <div class="ubx-info">This user is being guided to heaven.</div>
 </div>
