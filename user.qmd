@@ -6,7 +6,7 @@ format: html
 
 <!-- Raw HTML Block for the Userbox -->
 ```{r, echo=FALSE, results='asis'}
-angel.png <- knitr::include_graphics("angel.png")
+angel.png <- knitr::include_graphics("images/angel.png")
 cat('
 <style>
 .userbox {
