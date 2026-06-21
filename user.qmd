@@ -4,9 +4,6 @@ format: html
 
 ## About Me
 
-```{r, echo=FALSE, results='asis'}
-```
-
 <img src="images/angel.png" width="40" alt="Angel icon">
 
 ```{=html}
