@@ -6,7 +6,7 @@ format: html
 
 <div class="userbox">
   <div class="ubx-id">
-    <img src="images/angel.png" width="40">
+    <img src="/images/angel.png" width="40">
   </div>
   <div class="ubx-info">
     This user is being guided to heaven.
