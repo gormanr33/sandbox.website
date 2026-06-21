@@ -4,6 +4,8 @@ format: html
 
 ## About Me
 
+![](images/angel.png)
+
 <!-- Raw HTML Block for the Userbox -->
 
 ```{r, echo=FALSE, results='asis'}
